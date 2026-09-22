@@ -173,9 +173,49 @@
       border: none;
     }
 
+    .mobile-float-bar {
+      display: none;
+      position: fixed;
+      top: 8px;
+      right: 12px;
+      z-index: 120;
+      gap: 8px;
+    }
+
+    .mobile-float-btn {
+      padding: 5px 12px;
+      border-radius: 16px;
+      font-size: 11px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.6);
+      backdrop-filter: blur(8px);
+    }
+    .mobile-float-btn.download {
+      background: #238636;
+      border: 1px solid #2ea043;
+    }
+    .mobile-float-btn.close {
+      background: rgba(220, 38, 38, 0.85);
+      border: 1px solid rgba(239, 68, 68, 0.6);
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 13px;
+    }
+
     @media (max-width: 450px), (max-height: 850px) {
       .preview-header-bar {
         display: none;
+      }
+      .mobile-float-bar {
+        display: flex;
       }
       .device-shell {
         width: 100vw;
@@ -748,9 +788,25 @@
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
       <span id="screenToggleText">Tela Cheia</span>
     </button>
-    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest" target="_blank" class="preview-btn" style="background:#238636; border-color:#2ea043; text-decoration:none;">
+    <!-- Direct APK Download Link requested by user -->
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk" class="preview-btn" style="background:#238636; border-color:#2ea043; text-decoration:none; font-weight:700;">
       <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+      Baixar APK (.apk)
+    </a>
+    <!-- Close / Exit Preview Button -->
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE" class="preview-btn" title="Fechar Preview e Voltar ao GitHub" style="background:rgba(239, 68, 68, 0.2); border-color:rgba(239, 68, 68, 0.4); color:#ff6b6b; text-decoration:none; padding:5px 12px; font-weight:bold;">
+      ✕ Fechar
+    </a>
+  </div>
+
+  <!-- Floating Mobile Exit/Download Buttons (visible on mobile viewports) -->
+  <div class="mobile-float-bar">
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk" class="mobile-float-btn download">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
       Baixar APK
+    </a>
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE" class="mobile-float-btn close" title="Fechar Preview">
+      ✕
     </a>
   </div>
 
