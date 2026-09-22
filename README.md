@@ -138,6 +138,7 @@ By combining the **Monaco Editor**, an autonomous **Agentic Loop** with 17+ nati
 ## 📥 Download & Testing (APK)
 
 👉 **[Direct Download APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Instant .apk download ~99 MB)*  
+🌐 **[Test Online Simulator (Live Web Preview)](https://saboracaiteria.github.io/AI-Coding-IDE/)** *(Try before download directly in your browser)*  
 🔗 **[Browse GitHub Releases & Changelog](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Package ID:** `com.aicoding.ide`
@@ -251,6 +252,7 @@ Unindo o poderoso **Monaco Editor**, um **Agente de IA Autônomo Multi-Turn** co
 ## 📥 Download e Como Testar (APK)
 
 👉 **[Download Direto do APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Arquivo .apk oficial ~99 MB)*  
+🌐 **[Testar Simulador Online (Live Web Preview)](https://saboracaiteria.github.io/AI-Coding-IDE/)** *(Experimente o app direto no seu navegador sem instalar nada)*  
 🔗 **[Ver Todas as Releases e Histórico de Atualizações](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Identificador de Pacote:** `com.aicoding.ide`
