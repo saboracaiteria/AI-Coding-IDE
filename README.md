@@ -12,12 +12,18 @@
 [![Compiler](https://img.shields.io/badge/Compiler-100%25%20On--Device%20(No%20PC%2FCloud)-FF6F00?style=for-the-badge&logo=coffeescript&logoColor=white)](#)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20Zero--Cloud-4CAF50?style=for-the-badge&logo=shield&logoColor=white)](#)
 [![Release](https://img.shields.io/badge/Release-v1.0.0--beta-purple?style=for-the-badge&logo=github)](#-download--testing-apk)
+[![Live Simulator](https://img.shields.io/badge/🎮_Live_Preview-Testar_Online-00E676?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saboracaiteria.github.io/AI-Coding-IDE/)
 
 </div>
 
 ---
 
 <div align="center">
+  <p>
+    <a href="https://saboracaiteria.github.io/AI-Coding-IDE/" target="_blank">
+      <img src="https://img.shields.io/badge/▶_EXPERIMENTAR_ONLINE_(PREVIEW_DO_APP)-00E676?style=for-the-badge&logo=googlechrome&logoColor=white" height="42" alt="Testar App Online">
+    </a>
+  </p>
   <h3>🌐 Escolha seu idioma / Choose your language:</h3>
   <p>
     <a href="#-english"><b>🇺🇸 English Version</b></a> &nbsp;|&nbsp;
