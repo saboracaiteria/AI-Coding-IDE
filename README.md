@@ -131,13 +131,13 @@ By combining the **Monaco Editor**, an autonomous **Agentic Loop** with 17+ nati
 
 ## 📥 Download & Testing (APK)
 
-AI Coding IDE is currently in **Public Beta**. Download the ready-to-install `.apk` package directly from our GitHub Releases:
-
-👉 **[Download Latest APK Release](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
+👉 **[Direct Download APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Instant .apk download ~99 MB)*  
+🔗 **[Browse GitHub Releases & Changelog](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Package ID:** `com.aicoding.ide`
 * **Architecture:** ARM64-v8a (Optimized for modern Android smartphones)
 * **Minimum OS:** Android 8.0 (Oreo) or higher (Verified on Android 14 / HyperOS)
+* **Build File:** `AI-Coding-IDE-v1.0.0-beta-arm64.apk`
 * **Requirements:** No third-party account, subscription, or cloud setup required.
 
 ---
@@ -244,13 +244,13 @@ Unindo o poderoso **Monaco Editor**, um **Agente de IA Autônomo Multi-Turn** co
 
 ## 📥 Download e Como Testar (APK)
 
-O aplicativo está disponível em fase de testes abertos (Beta Público). Baixe o instalador `.apk` diretamente da página de Releases:
-
-👉 **[Baixar Versão Mais Recente (APK)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
+👉 **[Download Direto do APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Arquivo .apk oficial ~99 MB)*  
+🔗 **[Ver Todas as Releases e Histórico de Atualizações](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Identificador de Pacote:** `com.aicoding.ide`
 * **Arquitetura:** ARM64-v8a (Compatível com smartphones modernos)
 * **Versão Mínima:** Android 8.0+ (Oreo até Android 14 / HyperOS)
+* **Arquivo Instalador:** `AI-Coding-IDE-v1.0.0-beta-arm64.apk`
 * **Sem Burocracia:** Não exige cadastro prévio ou assinaturas para testar.
 
 ---
