@@ -11,7 +11,7 @@
 [![Editor Engine](https://img.shields.io/badge/Editor-Monaco%20Editor-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-100%25%20On--Device%20(No%20PC%2FCloud)-FF6F00?style=for-the-badge&logo=coffeescript&logoColor=white)](#)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20Zero--Cloud-4CAF50?style=for-the-badge&logo=shield&logoColor=white)](#)
-[![Release](https://img.shields.io/badge/Release-v1.0.0--beta-purple?style=for-the-badge&logo=github)](#-download--testing-apk)
+[![Release](https://img.shields.io/badge/Release-v1.1.0--beta-purple?style=for-the-badge&logo=github)](#-download--testing-apk)
 [![Live Simulator](https://img.shields.io/badge/🎮_Live_Preview-Testar_Online-00E676?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saboracaiteria.github.io/AI-Coding-IDE/)
 
 </div>
@@ -53,8 +53,9 @@ By combining the **Monaco Editor**, an autonomous **Agentic Loop** with 17+ nati
 
 ### 1. 📱 100% On-Device Native APK Compiler
 * **No PC, No Cloud, No Remote Server Required:** Build and sign real Android `.apk` files directly inside your phone's processor.
-* **Full Toolchain:** Embeds ARM64 16KB-aligned `libaapt2.so`, Eclipse Batch Compiler (`ECJ`) with `javax-compiler-shims`, Google Android D8 Dexer, and official `Apksig` v1/v2.
-* **Instant Sideloading:** Once compiled, the IDE opens Android's native package installer immediately via secure `FileProvider`.
+* **Full Toolchain:** Embeds ARM64 16KB-aligned `libaapt2.so`, Eclipse Batch Compiler (`ECJ`) with `javax-compiler-shims`, Google Android D8 Dexer, official `Apksig` v1/v2, and an **autonomous 1-step Kotlin Compiler toolchain (`ktapk`)** compiling full projects in ~12 seconds.
+* **Android 14/15 & HyperOS Hardened:** Native shims eliminating Java 17 `Runtime$Version` missing class issues.
+* **Automated Builds & Instant Sideloading:** Automatically generates timestamped APKs into `<project>/bin/` and opens Android's native package installer immediately via secure `FileProvider`.
 
 ### 2. 🤖 Autonomous Multi-Turn AI Agent
 * **Full Agentic Loop:** The integrated AI doesn't just suggest text—it actively inspects directory trees, reads files, performs surgical diff patches, runs terminal commands, transpiles code, and tests in preview.
@@ -137,14 +138,14 @@ By combining the **Monaco Editor**, an autonomous **Agentic Loop** with 17+ nati
 
 ## 📥 Download & Testing (APK)
 
-👉 **[Direct Download APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Instant .apk download ~99 MB)*  
+👉 **[Direct Download APK (v1.1.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.0-beta/AI-Coding-IDE-v1.1.0-beta-arm64.apk)** *(Instant .apk download ~99 MB)*  
 🌐 **[Test Online Simulator (Live Web Preview)](https://saboracaiteria.github.io/AI-Coding-IDE/)** *(Try before download directly in your browser)*  
 🔗 **[Browse GitHub Releases & Changelog](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Package ID:** `com.aicoding.ide`
 * **Architecture:** ARM64-v8a (Optimized for modern Android smartphones)
 * **Minimum OS:** Android 8.0 (Oreo) or higher (Verified on Android 14 / HyperOS)
-* **Build File:** `AI-Coding-IDE-v1.0.0-beta-arm64.apk`
+* **Build File:** `AI-Coding-IDE-v1.1.0-beta-arm64.apk`
 * **Requirements:** No third-party account, subscription, or cloud setup required.
 
 ---
@@ -185,8 +186,9 @@ Unindo o poderoso **Monaco Editor**, um **Agente de IA Autônomo Multi-Turn** co
 
 ### 1. 📱 Compilador Nativo de APKs 100% no Celular (On-Device)
 * **Zero Dependência de PC ou Nuvem:** Compile código Java/Kotlin e gere arquivos `.apk` assinados e prontos para uso usando apenas o poder de processamento do seu celular.
-* **Pipeline Completo:** Inclui binário nativo ARM64 `libaapt2.so` (16KB ELF aligned para compatibilidade com Android 14 e 15), compilador Eclipse (`ECJ`) com shims do JDK, conversor Dex D8 do Google e assinador `Apksig` v1/v2.
-* **Instalação Instantânea:** Após a compilação, o app dispara o instalador nativo de pacotes do Android via `FileProvider` seguro.
+* **Pipeline Completo:** Inclui binário nativo ARM64 `libaapt2.so` (16KB ELF aligned para compatibilidade com Android 14 e 15), compilador Eclipse (`ECJ`) com shims do JDK, conversor Dex D8 do Google, assinador `Apksig` v1/v2 e **toolchain nativo Kotlin em 1 passo (`ktapk`)** que compila apps completos em apenas ~12 segundos.
+* **Blindagem Android 14/15 e HyperOS:** Correção definitiva para chamadas Java 17 (`Runtime$Version`) sem falhas de runtime.
+* **Builds Padronizados e Instalação Instantânea:** Gera APKs nomeados automaticamente com timestamp dentro da pasta `<projeto>/bin/` e dispara o instalador nativo de pacotes do Android via `FileProvider` seguro.
 
 ### 2. 🤖 Agente de IA Autônomo com Agentic Loop
 * **Execução Multitarefa Contínua:** A IA não apenas responde texto; ela lê diretórios, cria arquivos, aplica patches cirúrgicos, roda comandos no terminal, compila o app e testa no navegador integrado até concluir o objetivo solicitado.
@@ -251,14 +253,14 @@ Unindo o poderoso **Monaco Editor**, um **Agente de IA Autônomo Multi-Turn** co
 
 ## 📥 Download e Como Testar (APK)
 
-👉 **[Download Direto do APK (v1.0.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.0.0-beta/AI-Coding-IDE-v1.0.0-beta-arm64.apk)** *(Arquivo .apk oficial ~99 MB)*  
+👉 **[Download Direto do APK (v1.1.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.0-beta/AI-Coding-IDE-v1.1.0-beta-arm64.apk)** *(Arquivo .apk oficial ~99 MB)*  
 🌐 **[Testar Simulador Online (Live Web Preview)](https://saboracaiteria.github.io/AI-Coding-IDE/)** *(Experimente o app direto no seu navegador sem instalar nada)*  
 🔗 **[Ver Todas as Releases e Histórico de Atualizações](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
 * **Identificador de Pacote:** `com.aicoding.ide`
 * **Arquitetura:** ARM64-v8a (Compatível com smartphones modernos)
 * **Versão Mínima:** Android 8.0+ (Oreo até Android 14 / HyperOS)
-* **Arquivo Instalador:** `AI-Coding-IDE-v1.0.0-beta-arm64.apk`
+* **Arquivo Instalador:** `AI-Coding-IDE-v1.1.0-beta-arm64.apk`
 * **Sem Burocracia:** Não exige cadastro prévio ou assinaturas para testar.
 
 ---
