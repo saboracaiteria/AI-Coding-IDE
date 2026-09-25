@@ -10,7 +10,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20(ARM64--v8a)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-100%25%20On--Device%20Native-FF6F00?style=for-the-badge&logo=android&logoColor=white)](#)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20Zero--Cloud-4CAF50?style=for-the-badge&logo=shield&logoColor=white)](#)
-[![Release](https://img.shields.io/badge/Release-v1.1.0--beta-purple?style=for-the-badge&logo=github)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)
+[![Release](https://img.shields.io/badge/Release-v1.1.1--beta-purple?style=for-the-badge&logo=github)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)
 [![Website](https://img.shields.io/badge/Official_Site-Landing_Page-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saboracaiteria.github.io/AI-Coding-IDE/)
 
 </div>
@@ -19,8 +19,8 @@
 
 <div align="center">
   <p>
-    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.0-beta/AI-Coding-IDE-v1.1.0-beta-arm64.apk">
-      <img src="https://img.shields.io/badge/📥_BAIXAR_APK_OFICIAL_(v1.1.0--beta)-00E676?style=for-the-badge&logo=android&logoColor=white" height="48" alt="Baixar APK Oficial">
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk">
+      <img src="https://img.shields.io/badge/📥_BAIXAR_APK_OFICIAL_(v1.1.1--beta)-00E676?style=for-the-badge&logo=android&logoColor=white" height="48" alt="Baixar APK Oficial">
     </a>
   </p>
   <h3>🌐 Escolha seu idioma / Choose your language:</h3>
@@ -90,7 +90,7 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 
 ## 📥 Download & Installation
 
-👉 **[Download Official APK (v1.1.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.0-beta/AI-Coding-IDE-v1.1.0-beta-arm64.apk)** *(Direct .apk download ~99 MB)*  
+👉 **[Download Official APK (v1.1.1-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk)** *(Direct .apk download ~118 MB)*  
 🌐 **[Visit Official Landing Page](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[GitHub Releases & Version History](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
@@ -149,7 +149,7 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 
 ## 📥 Download e Instalação
 
-👉 **[Baixar APK Oficial (v1.1.0-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.0-beta/AI-Coding-IDE-v1.1.0-beta-arm64.apk)** *(Download direto .apk ~99 MB)*  
+👉 **[Baixar APK Oficial (v1.1.1-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk)** *(Download direto .apk ~118 MB)*  
 🌐 **[Acessar Site Oficial](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[Ver Histórico de Versões no GitHub](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
