@@ -10,7 +10,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Android%208.0%2B%20(ARM64--v8a)-3DDC84?style=for-the-badge&logo=android&logoColor=white)](#)
 [![Compiler](https://img.shields.io/badge/Compiler-100%25%20On--Device%20Native-FF6F00?style=for-the-badge&logo=android&logoColor=white)](#)
 [![Privacy](https://img.shields.io/badge/Privacy-100%25%20Local%20%26%20Zero--Cloud-4CAF50?style=for-the-badge&logo=shield&logoColor=white)](#)
-[![Release](https://img.shields.io/badge/Release-v1.1.1--beta-purple?style=for-the-badge&logo=github)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)
+[![Release](https://img.shields.io/badge/Release-v1.1.2--beta-purple?style=for-the-badge&logo=github)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)
 [![Website](https://img.shields.io/badge/Official_Site-Landing_Page-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saboracaiteria.github.io/AI-Coding-IDE/)
 
 </div>
@@ -19,8 +19,8 @@
 
 <div align="center">
   <p>
-    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk">
-      <img src="https://img.shields.io/badge/📥_BAIXAR_APK_OFICIAL_(v1.1.1--beta)-00E676?style=for-the-badge&logo=android&logoColor=white" height="48" alt="Baixar APK Oficial">
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.2-beta/AI-Coding-IDE-v1.1.2-beta-arm64.apk">
+      <img src="https://img.shields.io/badge/📥_BAIXAR_APK_OFICIAL_(v1.1.2--beta)-00E676?style=for-the-badge&logo=android&logoColor=white" height="48" alt="Baixar APK Oficial">
     </a>
   </p>
   <h3>🌐 Escolha seu idioma / Choose your language:</h3>
@@ -59,6 +59,8 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 ### 🤖 2. Autonomous Multi-Turn AI Agent
 * **Full Agentic Workflow:** The AI doesn't just predict code—it reads files, plans complex tasks, writes surgical diffs, runs terminal diagnostic commands, and verifies results in real-time.
 * **Consolidated Reasoning:** Clean, modern reasoning summaries keep the chat uncluttered and focused on results.
+* **Fast Intent Engine (System 1 / Jev-Pattern):** Sub-millisecond deterministic intent routing (< 0.1 ms) directly on-device, bypassing slow cloud roundtrips for instant actions.
+* **Integrated Live Preview & Web Engine:** Instant browser evaluation, DOM diagnostics, and live CSS/HTML testing directly in the mobile workspace.
 * **Model Agnostic:** Connect directly to **DeepSeek (V3 & Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter**, or run local offline models with **Ollama**.
 
 ### 💻 3. Professional Mobile Code Editor
@@ -90,7 +92,7 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 
 ## 📥 Download & Installation
 
-👉 **[Download Official APK (v1.1.1-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk)** *(Direct .apk download ~118 MB)*  
+👉 **[Download Official APK (v1.1.2-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.2-beta/AI-Coding-IDE-v1.1.2-beta-arm64.apk)** *(Direct .apk download ~118 MB)*  
 🌐 **[Visit Official Landing Page](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[GitHub Releases & Version History](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
@@ -130,6 +132,8 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 ### 🤖 2. Agente de IA Autônomo
 * **Fluxo Agêntico Completo:** A IA não apenas responde texto—ela inspeciona pastas, lê arquivos, aplica correções cirúrgicas de código, executa comandos no terminal e testa a aplicação.
 * **Chat Limpo e Moderno:** Raciocínio condensado em cards elegantes e histórico de ferramentas compacto e organizado.
+* **Motor de Roteamento Rápido (Sistema 1 / Jev-Pattern):** Decisões locais e instantâneas (< 0,1 ms) no próprio aparelho, eliminando latência de nuvem para comandos frequentes.
+* **Navegador Live Preview Integrado:** Avaliação instantânea de JavaScript, inspeção de DOM e testes de CSS/HTML em tempo real na workspace.
 * **Agnóstico de Modelos:** Conecte-se facilmente a **DeepSeek (V3 e Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter** ou rode modelos locais via **Ollama**.
 
 ### 💻 3. Editor de Código Profissional
@@ -149,7 +153,7 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 
 ## 📥 Download e Instalação
 
-👉 **[Baixar APK Oficial (v1.1.1-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.1-beta/AI-Coding-IDE-v1.1.1-beta-arm64.apk)** *(Download direto .apk ~118 MB)*  
+👉 **[Baixar APK Oficial (v1.1.2-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.2-beta/AI-Coding-IDE-v1.1.2-beta-arm64.apk)** *(Download direto .apk ~118 MB)*  
 🌐 **[Acessar Site Oficial](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[Ver Histórico de Versões no GitHub](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
