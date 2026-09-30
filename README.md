@@ -92,7 +92,7 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 
 ## 📥 Download & Installation
 
-👉 **[Download Official APK (v1.1.12-beta)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.1.12-beta/AI-Coding-IDE-v1.1.12-beta-arm64.apk)** *(Direct .apk download ~118 MB)*  
+👉 **[Download Official APK (v1.5 DELUX)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v1.5-delux/AI-Coding-IDE-v1.5-delux-arm64.apk)** *(Direct .apk download ~118 MB)*  
 🌐 **[Visit Official Landing Page](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[GitHub Releases & Version History](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
