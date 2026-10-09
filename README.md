@@ -43,7 +43,9 @@
 ---
 
 <div align="center">
-  <img src="comparison.jpg" alt="AI Coding IDE Feature Comparison" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25);" />
+  <a href="https://saboracaiteria.github.io/AI-Coding-IDE/" title="Clique para abrir a Vitrine Web Oficial">
+    <img src="comparison.jpg" alt="AI Coding IDE Feature Comparison" width="100%" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); cursor: pointer;" />
+  </a>
 </div>
 
 ---
