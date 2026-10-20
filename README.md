@@ -104,7 +104,7 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 
 ## 📥 Download & Installation
 
-👉 **[Download Official APK (v2.2.7 DELUX)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.2.7-delux/AI-Coding-IDE-v2.2.7-delux-arm64.apk` file above.
+👉 **[Download Official APK (v2.2.7 DELUX)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.2.7-delux/AI-Coding-IDE-v2.2.7-delux-arm64.apk)** *(Direct .apk download ~195 MB)*
 2. Tap the downloaded file in your notification bar or file manager.
 3. If prompted, enable *"Install unknown apps"* for your browser.
 4. Open **AI Coding IDE** and start building apps instantly!
@@ -155,7 +155,7 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 
 ## 📥 Download e Instalação
 
-👉 **[Baixar APK Oficial (v2.2.7 DELUX)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.2.7-delux/AI-Coding-IDE-v2.2.7-delux-arm64.apk ~195 MB)*  
+👉 **[Baixar APK Oficial (v2.2.7 DELUX)](https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.2.7-delux/AI-Coding-IDE-v2.2.7-delux-arm64.apk)** *(Download direto .apk ~195 MB)*
 🌐 **[Acessar Vitrine Web Oficial](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
 📦 **[Ver Histórico de Versões no GitHub](https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest)**
 
