@@ -29,7 +29,7 @@
       <img src="https://img.shields.io/badge/🌐_ABRIR_VITRINE_OFICIAL_(WEB)-00B0FF?style=for-the-badge&logo=googlechrome&logoColor=white" height="48" alt="Abrir Vitrine Oficial">
     </a>
     &nbsp;
-    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk">
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk">
       <img src="https://img.shields.io/badge/📥_BAIXAR_APK_OFICIAL_(v2.3.2--DELUX)-00E676?style=for-the-badge&logo=android&logoColor=white" height="48" alt="Baixar APK Oficial">
     </a>
   </p>
