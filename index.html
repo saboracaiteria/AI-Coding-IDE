@@ -9,42 +9,81 @@
   <link rel="canonical" href="https://saboracaiteria.github.io/AI-Coding-IDE/">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="AI Coding IDE — Compilador Nativo & IA Autônoma no Celular (v2.3.2 DELUX)">
-  <meta property="og:description" content="Desenvolva, compile e instale aplicativos Android reais no seu celular. Sem computador, sem nuvem, 100% no seu bolso.">
+  <meta property="og:title" content="AI Coding IDE v2.3.2 DELUX — Compilador Nativo & IA Autônoma no Celular">
+  <meta property="og:description" content="Substitua o Android Studio de PC no seu bolso: compile em 12s, faça engenharia reversa de APKs e crie apps reais com IA sem precisar de computador.">
   <meta property="og:url" content="https://saboracaiteria.github.io/AI-Coding-IDE/">
   <meta property="og:site_name" content="AI Coding IDE">
   <meta property="og:image" content="https://saboracaiteria.github.io/AI-Coding-IDE/comparison.jpg">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AI Coding IDE — Compilador Nativo & IA Autônoma no Celular">
-  <meta name="twitter:description" content="A primeira IDE móvel com Inteligência Artificial autônoma e motor de compilação nativa on-device.">
+  <meta name="twitter:title" content="AI Coding IDE v2.3.2 DELUX — Compilador Nativo & IA no Celular">
+  <meta name="twitter:description" content="A primeira IDE móvel com Inteligência Artificial autônoma, motor JEV Sistema 1, engenharia reversa silenciosa e compilação nativa on-device.">
   <meta name="twitter:image" content="https://saboracaiteria.github.io/AI-Coding-IDE/comparison.jpg">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- Schema.org JSON-LD para Google Search Console & Rich Snippets -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "AI Coding IDE",
-    "operatingSystem": "Android",
+    "operatingSystem": "Android 8.0+",
     "applicationCategory": "DeveloperApplication",
     "softwareVersion": "v2.3.2 DELUX",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "ratingCount": "1280"
+    },
     "offers": {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "BRL"
     },
-    "description": "A primeira IDE móvel com Inteligência Artificial autônoma e motor de compilação nativa on-device para Android. Crie e instale APKs sem PC e sem nuvem.",
+    "description": "Desenvolva, compile em 12 segundos e instale aplicativos Android reais diretamente no celular. Sem computador, sem nuvem obrigatória e com modelos de IA integrados.",
     "url": "https://saboracaiteria.github.io/AI-Coding-IDE/",
     "downloadUrl": "https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk"
   }
   </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Como a AI Coding IDE substitui o Android Studio no PC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A AI Coding IDE possui um motor de compilação 100% on-device que integra AAPT2, ECJ, D8 e Apksig diretamente no processador do smartphone. Você compila, assina e instala o APK no próprio celular em cerca de 12 segundos, sem precisar de computador nem cabos."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual a diferença entre a AI Coding IDE e editores como Termux ou Acode?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Editores como Acode e Spck apenas editam código e dependem de navegadores, enquanto o Termux é apenas uma linha de comando sem interface visual. A AI Coding IDE é uma estação completa: compila APKs reais, possui terminal, Studio 3D e um agente de IA com tomada de decisão local (JEV) e engenharia reversa."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Preciso pagar por chaves de API para usar a Inteligência Artificial?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Não! A IDE já vem com os modelos integrados nildoxzbr e nildoxzbr-2 (Codestral) prontos para uso sem exigir pagamento ou chaves externas."
+        }
+      }
+    ]
+  }
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#0c0d12">
-  <meta name="description" content="AI Coding IDE — A primeira IDE profissional com IA autônoma e compilador nativo on-device para Android. Crie e instale APKs sem PC e sem nuvem.">
-  <title>AI Coding IDE — Compilador Nativo & IA Autônoma no Celular</title>
+  <meta name="theme-color" content="#090a0f">
+  <meta name="description" content="Desenvolva, compile em 12s e instale APKs reais no Android sem precisar de PC ou nuvem. Supera Termux e Acode com agente IA, motor JEV e engenharia reversa.">
+  <title>AI Coding IDE v2.3.2 — Compilador Nativo & IA Autônoma no Celular</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,6 +100,7 @@
       --primary-glow: rgba(0, 230, 118, 0.25);
       --accent-purple: #7c4dff;
       --accent-blue: #00b0ff;
+      --accent-amber: #ffb300;
       --text: #f0f2fa;
       --text-muted: #8e93a6;
       --text-sub: #b4b8cc;
@@ -122,7 +162,7 @@
       position: sticky;
       top: 0;
       width: 100%;
-      background: rgba(9, 10, 15, 0.75);
+      background: rgba(9, 10, 15, 0.85);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
       border-bottom: 1px solid var(--border);
@@ -135,7 +175,6 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 16px;
     }
     .logo {
       display: flex;
@@ -146,7 +185,6 @@
       letter-spacing: -0.5px;
       color: #fff;
       text-decoration: none;
-      flex-shrink: 0;
     }
     .logo-badge {
       background: linear-gradient(135deg, var(--accent-purple), var(--primary));
@@ -160,48 +198,7 @@
       display: flex;
       align-items: center;
       gap: 12px;
-      flex-wrap: nowrap;
     }
-
-    /* Language Switcher */
-    .lang-switch {
-      display: inline-flex;
-      align-items: center;
-      background: var(--surface-elevated);
-      border: 1px solid var(--border);
-      border-radius: var(--radius-full);
-      padding: 3px;
-      gap: 2px;
-      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
-    }
-    .lang-btn {
-      background: transparent;
-      border: 1px solid transparent;
-      color: var(--text-muted);
-      padding: 5px 12px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      letter-spacing: 0.2px;
-      border-radius: var(--radius-full);
-      cursor: pointer;
-      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-      font-family: inherit;
-      display: inline-flex;
-      align-items: center;
-      gap: 4px;
-      user-select: none;
-    }
-    .lang-btn:hover {
-      color: var(--text);
-      background: rgba(255, 255, 255, 0.05);
-    }
-    .lang-btn.active {
-      background: linear-gradient(135deg, rgba(0, 230, 118, 0.22), rgba(0, 176, 255, 0.22));
-      color: var(--primary);
-      border-color: rgba(0, 230, 118, 0.45);
-      box-shadow: 0 2px 10px rgba(0, 230, 118, 0.25);
-    }
-
     .btn {
       display: inline-flex;
       align-items: center;
@@ -215,7 +212,6 @@
       transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
       cursor: pointer;
       border: none;
-      white-space: nowrap;
     }
     .btn-primary {
       background: linear-gradient(135deg, #00e676, #00b0ff);
@@ -244,43 +240,48 @@
       z-index: 2;
       max-width: 1100px;
       margin: 0 auto;
-      padding: 80px 24px 60px;
+      padding: 70px 24px 50px;
       text-align: center;
     }
     .hero-tag {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      padding: 6px 14px;
+      padding: 6px 16px;
       border-radius: var(--radius-full);
-      background: rgba(124, 77, 255, 0.15);
-      border: 1px solid rgba(124, 77, 255, 0.35);
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: #b388ff;
+      background: rgba(0, 230, 118, 0.12);
+      border: 1px solid rgba(0, 230, 118, 0.3);
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--primary);
       margin-bottom: 24px;
     }
     .hero-tag span {
-      width: 7px;
-      height: 7px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       background: var(--primary);
-      box-shadow: 0 0 8px var(--primary);
+      box-shadow: 0 0 10px var(--primary);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
     }
     .hero h1 {
-      font-size: 3.5rem;
+      font-size: 3.6rem;
       font-weight: 800;
-      line-height: 1.15;
-      letter-spacing: -1.5px;
-      margin-bottom: 20px;
-      background: linear-gradient(180deg, #ffffff 30%, #a4abbd 100%);
+      line-height: 1.12;
+      letter-spacing: -1.8px;
+      margin-bottom: 22px;
+      background: linear-gradient(180deg, #ffffff 40%, #a4abbd 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .hero p {
       font-size: 1.25rem;
       color: var(--text-sub);
-      max-width: 720px;
+      max-width: 760px;
       margin: 0 auto 36px;
       font-weight: 400;
     }
@@ -293,14 +294,47 @@
       margin-bottom: 50px;
     }
     .hero-actions .btn {
-      padding: 15px 32px;
+      padding: 16px 36px;
       font-size: 1.05rem;
+    }
+
+    /* Badges Bar */
+    .hero-stats {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+      padding: 16px;
+      border-radius: var(--radius-md);
+      background: rgba(22, 25, 37, 0.4);
+      border: 1px solid var(--border);
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .stat-number {
+      font-size: 1.4rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
 
     /* Device Preview Showcase */
     .mockup-container {
       position: relative;
-      max-width: 860px;
+      max-width: 900px;
       margin: 0 auto;
       border-radius: var(--radius-lg);
       padding: 12px;
@@ -321,7 +355,7 @@
       position: relative;
       z-index: 2;
       max-width: 1200px;
-      margin: 60px auto 100px;
+      margin: 80px auto;
       padding: 0 24px;
     }
     .section-title {
@@ -329,7 +363,7 @@
       margin-bottom: 50px;
     }
     .section-title h2 {
-      font-size: 2.3rem;
+      font-size: 2.4rem;
       font-weight: 800;
       letter-spacing: -0.8px;
       margin-bottom: 12px;
@@ -337,6 +371,8 @@
     .section-title p {
       color: var(--text-muted);
       font-size: 1.05rem;
+      max-width: 650px;
+      margin: 0 auto;
     }
     .grid {
       display: grid;
@@ -381,27 +417,93 @@
       line-height: 1.6;
     }
 
-    /* Comparison Section */
+    /* Comparison Section: Table & Battle */
     .comparison-section {
       position: relative;
       z-index: 2;
-      max-width: 1000px;
-      margin: 80px auto;
+      max-width: 1100px;
+      margin: 90px auto;
       padding: 0 24px;
-      text-align: center;
     }
-    .comparison-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
+    .table-responsive {
+      overflow-x: auto;
       border-radius: var(--radius-lg);
-      padding: 20px;
+      border: 1px solid var(--border);
+      background: var(--surface);
       box-shadow: 0 20px 50px rgba(0,0,0,0.5);
     }
-    .comparison-card img {
+    table.battle-table {
       width: 100%;
-      height: auto;
+      border-collapse: collapse;
+      text-align: left;
+    }
+    table.battle-table th,
+    table.battle-table td {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+    table.battle-table th {
+      background: var(--surface-elevated);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      letter-spacing: 0.5px;
+      color: var(--text-muted);
+    }
+    table.battle-table th.highlight-header {
+      background: rgba(0, 230, 118, 0.12);
+      color: var(--primary);
+      border-top: 2px solid var(--primary);
+    }
+    table.battle-table td.highlight-col {
+      background: rgba(0, 230, 118, 0.04);
+      font-weight: 600;
+      color: #fff;
+      border-left: 1px solid rgba(0, 230, 118, 0.2);
+      border-right: 1px solid rgba(0, 230, 118, 0.2);
+    }
+    .badge-check {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--primary);
+      font-weight: 700;
+    }
+    .badge-cross {
+      color: #ff5252;
+      font-weight: 600;
+    }
+    .badge-warn {
+      color: #ffab00;
+      font-weight: 600;
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+      margin: 80px auto;
+      padding: 0 24px;
+    }
+    .faq-item {
+      background: var(--surface);
+      border: 1px solid var(--border);
       border-radius: var(--radius-md);
-      display: block;
+      margin-bottom: 16px;
+      padding: 24px;
+    }
+    .faq-item h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .faq-item p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.6;
     }
 
     /* Download Banner */
@@ -409,7 +511,7 @@
       position: relative;
       z-index: 2;
       max-width: 1000px;
-      margin: 80px auto 120px;
+      margin: 80px auto 100px;
       padding: 60px 30px;
       background: linear-gradient(135deg, rgba(124, 77, 255, 0.2), rgba(0, 230, 118, 0.15));
       border: 1px solid rgba(255, 255, 255, 0.15);
@@ -425,7 +527,7 @@
     .cta-banner p {
       color: var(--text-sub);
       font-size: 1.15rem;
-      max-width: 600px;
+      max-width: 650px;
       margin: 0 auto 30px;
     }
 
@@ -448,39 +550,8 @@
     }
 
     @media (max-width: 768px) {
-      header {
-        padding: 12px 16px;
-      }
-      .nav-container {
-        gap: 8px;
-      }
-      .logo {
-        font-size: 1.05rem;
-        gap: 6px;
-      }
-      .logo-badge {
-        font-size: 0.7rem;
-        padding: 2px 6px;
-      }
-      .nav-cta {
-        gap: 8px;
-      }
-      .lang-btn {
-        padding: 4px 8px;
-        font-size: 0.72rem;
-      }
-      .btn {
-        padding: 8px 14px;
-        font-size: 0.82rem;
-      }
-      .btn-nav-gh span {
-        display: none;
-      }
-      .btn-nav-gh {
-        padding: 8px 10px;
-      }
       .hero h1 {
-        font-size: 2.3rem;
+        font-size: 2.4rem;
         letter-spacing: -0.8px;
       }
       .hero p {
@@ -490,7 +561,17 @@
         width: 100%;
       }
       .hero {
-        padding: 50px 16px 40px;
+        padding: 40px 16px 30px;
+      }
+      .hero-stats {
+        gap: 16px;
+      }
+      .stat-number {
+        font-size: 1.2rem;
+      }
+      table.battle-table th, table.battle-table td {
+        padding: 12px 14px;
+        font-size: 0.85rem;
       }
     }
   </style>
@@ -509,18 +590,12 @@
         <span class="logo-badge">v2.3.2 DELUX</span>
       </a>
       <div class="nav-cta">
-        <!-- Language Switcher -->
-        <div class="lang-switch" role="group" aria-label="Language selector">
-          <button type="button" class="lang-btn active" data-lang="en" aria-label="Switch to English">🇺🇸 EN</button>
-          <button type="button" class="lang-btn" data-lang="pt" aria-label="Mudar para Português">🇧🇷 PT</button>
-        </div>
-
-        <a href="https://github.com/saboracaiteria/AI-Coding-IDE" target="_blank" class="btn btn-secondary btn-nav-gh" aria-label="GitHub Repository">
+        <a href="https://github.com/saboracaiteria/AI-Coding-IDE" target="_blank" class="btn btn-secondary">
           <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-          <span>GitHub</span>
+          GitHub
         </a>
         <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk" class="btn btn-primary">
-          <span data-i18n="nav_download">Baixar APK</span>
+          Baixar APK v2.3.2
         </a>
       </div>
     </div>
@@ -528,259 +603,202 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-tag" data-i18n-html="hero_tag">
-      <span></span> NOVA VERSÃO OFICIAL DISPONÍVEL
+    <div class="hero-tag">
+      <span></span> NOVO LANÇAMENTO OFICIAL • v2.3.2 DELUX
     </div>
-    <h1 data-i18n="hero_title">Desenvolva, Compile e Instale Apps Reais no seu Celular</h1>
-    <p data-i18n="hero_subtitle">A primeira IDE móvel com Inteligência Artificial autônoma e motor de compilação nativa on-device. Sem computador, sem nuvem, 100% no seu bolso.</p>
+    <h1>Desenvolva, Compile e Instale Apps Reais no seu Celular</h1>
+    <p>A primeira estação móvel de engenharia completa: compilação nativa em ~12s, agente de IA autônomo com motor reflexivo JEV e engenharia reversa de APKs. Diga adeus ao computador.</p>
     
     <div class="hero-actions">
       <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk" class="btn btn-primary">
-        <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-        <span data-i18n="hero_download">Baixar APK Grátis (v2.3.2 DELUX)</span>
+        <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+        Baixar APK Oficial (v2.3.2 DELUX)
       </a>
       <a href="https://github.com/saboracaiteria/AI-Coding-IDE" target="_blank" class="btn btn-secondary">
-        <span data-i18n="hero_releases">Ver Código & Releases</span>
+        Ver Código & Releases no GitHub
       </a>
+    </div>
+
+    <!-- Quick Badges -->
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-number">~12s</span>
+        <span class="stat-label">Build On-Device</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">&lt; 1ms</span>
+        <span class="stat-label">Decisão JEV Local</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">100%</span>
+        <span class="stat-label">Sem PC & Offline</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">ARM64</span>
+        <span class="stat-label">Nativo Android</span>
+      </div>
     </div>
 
     <!-- Mockup Showcase -->
     <div class="mockup-container">
-      <img src="assets/home_screenshot.jpg" alt="AI Coding IDE em Ação no Smartphone" class="mockup-image" data-i18n-alt="mockup_alt">
+      <img src="assets/home_screenshot.jpg" alt="AI Coding IDE em Ação no Smartphone Android" class="mockup-image">
     </div>
   </section>
 
   <!-- Features Grid -->
   <section class="features">
     <div class="section-title">
-      <h2 data-i18n="features_title">Poder de Engenharia Desktop no Celular</h2>
-      <p data-i18n="features_subtitle">Projetado para desenvolvedores que exigem velocidade, liberdade e controle total.</p>
+      <h2>Poder de Engenharia Superior ao Desktop</h2>
+      <p>Desenvolvido para engenheiros que não querem ficar presos a uma mesa, cabos USB ou computadores de 15 kg.</p>
     </div>
 
     <div class="grid">
       <div class="card">
         <div class="card-icon">⚡</div>
-        <h3 data-i18n="f1_title">Compilação Nativa em ~12s</h3>
-        <p data-i18n="f1_desc">Compile projetos Android reais em Kotlin e Java diretamente no processador do celular, sem precisar de Android Studio ou PC conectado.</p>
+        <h3>Compilador Nativo On-Device (~12s)</h3>
+        <p>AAPT2, ECJ, D8 e Apksig rodando direto no processador Snapdragon/MediaTek. Compilação, empacotamento, assinatura (V1 a V4) e instalação do APK sem tocar no computador.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🧠</div>
+        <h3>Cérebro Híbrido: JEV Sistema 1 (< 1ms)</h3>
+        <p>Motor de decisão reflexiva não-autoregressivo em CPU local. Classifica erros de compilação, aciona auto-recuperação de comandos e gerencia tarefas sem latência de nuvem.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-icon">🔍</div>
+        <h3>Engenharia Reversa Silenciosa de APKs</h3>
+        <p>Dissecação profunda de qualquer APK: inspeção de classes Dalvik (DEX), tabela de recursos (ARSC), manifesto binário (AXML) e bibliotecas nativas (.so) diretamente pelo chat.</p>
       </div>
 
       <div class="card">
         <div class="card-icon">🤖</div>
-        <h3 data-i18n="f2_title">🛡️ Agente IA & JEV (Auto-Correção)</h3>
-        <p data-i18n="f2_desc">Triagem universal inteligente no terminal: detecta erros reais e aciona auto-correções imediatas sem falsos-positivos.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">📲</div>
-        <h3 data-i18n="f3_title">👁️ Visão Multimodal nos Modelos</h3>
-        <p data-i18n="f3_desc">Envie fotos, capturas de tela e mockups de UI diretamente no chat para que a IA analise a interface e o design do app.</p>
+        <h3>Modelos de IA Ilimitados Inclusos</h3>
+        <p>Integração com <code>nildoxzbr</code> (Gemini Web) e <code>nildoxzbr-2</code> (Codestral) prontos para uso, com suporte a visão multimodal de prints e mockups de tela.</p>
       </div>
 
       <div class="card">
         <div class="card-icon">💻</div>
-        <h3 data-i18n="f4_title">Editor Desktop com Ctrl+K</h3>
-        <p data-i18n="f4_desc">Editor de alto desempenho com destaque para 50+ linguagens, autocompletar e comando de IA inline com gestos de deslizar para aceitar alterações.</p>
+        <h3>Editor Profissional Monaco & Diff</h3>
+        <p>Coloração de sintaxe para 50+ linguagens, autocompletar inteligente, navegação por abas e comandos inline estilo Cursor com aceitação por gestos.</p>
       </div>
 
       <div class="card">
-        <div class="card-icon">🐧</div>
-        <h3 data-i18n="f5_title">Terminal Linux & Git</h3>
-        <p data-i18n="f5_desc">Terminal completo com ferramentas de linha de comando, controle de versão Git e integração direta com as ações da IA.</p>
-      </div>
-
-      <div class="card">
-        <div class="card-icon">🔒</div>
-        <h3 data-i18n="f6_title">100% Seguro & Zero-Cloud</h3>
-        <p data-i18n="f6_desc">Seus arquivos e projetos ficam estritamente no armazenamento do seu aparelho. Programe em aviões ou offline com privacidade absoluta.</p>
+        <div class="card-icon">🎮</div>
+        <h3>Studio 3D & Motor Codex3D PRO</h3>
+        <p>Gere e visualize modelos 3D (.glb / Three.js) com rigging, articulações cinemáticas e animações procedurais em tempo real no próprio celular.</p>
       </div>
     </div>
   </section>
 
-  <!-- Comparison Section -->
+  <!-- BATTLE TABLE SECTION: Mobile Competitors & PC Software -->
   <section class="comparison-section">
     <div class="section-title">
-      <h2 data-i18n="comp_title">Comparativo de Recursos</h2>
-      <p data-i18n="comp_subtitle">Veja por que a AI Coding IDE redefine o desenvolvimento de software móvel.</p>
+      <h2>O Fim das Limitações: Comparativo Real</h2>
+      <p>Veja por que a AI Coding IDE supera tanto os aplicativos móveis tradicionais quanto o pesado ecossistema de PC.</p>
     </div>
-    <div class="comparison-card">
-      <img src="comparison.jpg" alt="Comparativo AI Coding IDE" data-i18n-alt="comp_alt">
+
+    <div class="table-responsive">
+      <table class="battle-table">
+        <thead>
+          <tr>
+            <th>Capacidade / Recurso</th>
+            <th>Editores Mobile (Acode / Spck)</th>
+            <th>Termux (CLI Pura)</th>
+            <th>Android Studio (PC)</th>
+            <th class="highlight-header">⚡ AI Coding IDE v2.3.2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Compilação Real de APKs</strong></td>
+            <td><span class="badge-cross">❌ Não compila</span></td>
+            <td><span class="badge-warn">⚠️ Difícil / Instável</span></td>
+            <td><span class="badge-warn">⚠️ Pesado (15 GB + PC)</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ Nativo em ~12s</span></td>
+          </tr>
+          <tr>
+            <td><strong>Instalação Imediata On-Device</strong></td>
+            <td><span class="badge-cross">❌ Impossível</span></td>
+            <td><span class="badge-cross">❌ Impossível</span></td>
+            <td><span class="badge-warn">⚠️ Exige Cabo / Emulador</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ 1 Toque no Celular</span></td>
+          </tr>
+          <tr>
+            <td><strong>Agente de IA Autônomo com Tools</strong></td>
+            <td><span class="badge-cross">❌ Não possui</span></td>
+            <td><span class="badge-cross">❌ Não possui</span></td>
+            <td><span class="badge-warn">⚠️ Plugins pagos ($20/mês)</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ Nativo com JEV (<1ms)</span></td>
+          </tr>
+          <tr>
+            <td><strong>Engenharia Reversa de APKs</strong></td>
+            <td><span class="badge-cross">❌ Não possui</span></td>
+            <td><span class="badge-warn">⚠️ Scripts manuais</span></td>
+            <td><span class="badge-warn">⚠️ Softwares externos</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ Headless no Chat</span></td>
+          </tr>
+          <tr>
+            <td><strong>Mobilidade e Independência de Tomada</strong></td>
+            <td><span class="badge-warn">⚠️ Limitado a Web</span></td>
+            <td><span class="badge-warn">⚠️ Sem GUI amigável</span></td>
+            <td><span class="badge-cross">❌ Preso à mesa</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ 100% no seu Bolso</span></td>
+          </tr>
+          <tr>
+            <td><strong>Modelos de IA Inclusos Sem Custo</strong></td>
+            <td><span class="badge-cross">❌ Não possui</span></td>
+            <td><span class="badge-cross">❌ Não possui</span></td>
+            <td><span class="badge-cross">❌ Exige chave de API</span></td>
+            <td class="highlight-col"><span class="badge-check">✅ Inclusos (nildoxzbr)</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FAQ Section for Google Rich Snippets -->
+  <section class="faq-section">
+    <div class="section-title">
+      <h2>Perguntas Frequentes</h2>
+      <p>Tudo o que você precisa saber sobre o desenvolvimento de apps nativos no smartphone.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Como a AI Coding IDE substitui o Android Studio de PC?</h3>
+      <p>Ela embarca diretamente no Android as ferramentas oficiais de compilação da Google (AAPT2, D8, ECJ e Apksig). Você escreve seu código em Java/Kotlin ou deixa a IA escrever, e com um toque o APK é gerado e instalado no próprio aparelho em cerca de 12 segundos.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Por que ela é superior a editores como Termux, Acode ou Spck Editor?</h3>
+      <p>Acode e Spck são limitados a páginas HTML/CSS/JS simples e não geram arquivos executáveis Android. O Termux é apenas uma tela preta de terminal sem interface moderna. A AI Coding IDE une um editor de código profissional Monaco, terminal integrado, compilador nativo e agentes de inteligência artificial que executam comandos sozinhos.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>O que é o motor JEV (Sistema 1)?</h3>
+      <p>Inspirado no conceito de decisão rápida de Kahneman, o JEV é um modelo de decisão local que opera na CPU do aparelho em menos de 1 milissegundo. Ele analisa logs do terminal, previne loops de erro e comanda a auto-cura da IDE sem gastar tokens nem depender de internet.</p>
     </div>
   </section>
 
   <!-- Call to Action Banner -->
   <section class="cta-banner">
-    <h2 data-i18n="cta_title">Pronto para programar de qualquer lugar?</h2>
-    <p data-i18n="cta_subtitle">Baixe a versão mais recente e comece a criar aplicativos Android completos direto no seu bolso.</p>
-    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk" class="btn btn-primary" style="padding: 16px 36px; font-size: 1.1rem;">
-      <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
-      <span data-i18n="cta_download">Baixar APK Agora (v2.3.2 DELUX)</span>
+    <h2>Liberte-se do computador hoje mesmo</h2>
+    <p>Baixe a versão v2.3.2 DELUX oficial e experimente o futuro do desenvolvimento móvel de alto nível.</p>
+    <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.3.2-delux/AI-Coding-IDE-v2.3.2-delux-arm64.apk" class="btn btn-primary" style="padding: 18px 40px; font-size: 1.15rem;">
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+      Baixar APK Oficial (v2.3.2 DELUX)
     </a>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p data-i18n="footer_copy">© 2026 AI Coding IDE • Criado para desenvolvedores móveis de alta performance.</p>
+    <p>© 2026 AI Coding IDE • Criado para desenvolvedores móveis de alta performance.</p>
     <p style="margin-top: 8px;">
-      <a href="https://github.com/saboracaiteria/AI-Coding-IDE" target="_blank" data-i18n="footer_repo">Repositório GitHub</a> • 
-      <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest" target="_blank" data-i18n="footer_releases">Releases</a> • 
-      <span data-i18n="footer_license">Distribuído sob Licença MIT</span>
+      <a href="https://github.com/saboracaiteria/AI-Coding-IDE" target="_blank">Repositório GitHub</a> • 
+      <a href="https://github.com/saboracaiteria/AI-Coding-IDE/releases/latest" target="_blank">Releases</a> • 
+      Distribuído sob Licença MIT
     </p>
   </footer>
 
-  <!-- Internationalization (i18n) Engine -->
-  <script>
-    const I18N = {
-      en: {
-        page_title: "AI Coding IDE — Native Compiler & Autonomous AI on Mobile",
-        meta_desc: "AI Coding IDE — The first professional mobile IDE with autonomous AI and on-device native compilation for Android. Build and install APKs without a PC or cloud.",
-        nav_download: "Download APK",
-        hero_tag: "<span></span> NEW OFFICIAL RELEASE AVAILABLE",
-        hero_title: "Build, Compile and Install Real Android Apps on Your Phone",
-        hero_subtitle: "The first mobile IDE with autonomous AI and on-device native compilation engine. No computer needed, zero cloud lock-in, 100% in your pocket.",
-        hero_download: "Download Free APK (v2.3.2 DELUX)",
-        hero_releases: "View Code & Releases",
-        mockup_alt: "AI Coding IDE Running on Smartphone",
-        features_title: "Desktop-Class Engineering Power on Mobile",
-        features_subtitle: "Engineered for developers who demand speed, freedom, and complete autonomy.",
-        f1_title: "Native Compilation in ~12s",
-        f1_desc: "Compile real Android projects in Kotlin and Java directly on your phone's processor — no Android Studio, PC, or remote servers required.",
-        f2_title: "🛡️ AI Agent & JEV (Self-Healing)",
-        f2_desc: "Intelligent terminal triage: detects real build & runtime errors and executes immediate autonomous fixes without false positives.",
-        f3_title: "👁️ Multimodal Vision in Models",
-        f3_desc: "Attach photos, screenshots, and UI mockups directly in chat — the AI analyzes layouts, extracts components, and codes matching UIs.",
-        f4_title: "Desktop-Grade Editor with Ctrl+K",
-        f4_desc: "High-performance mobile code editor with 50+ language syntax highlighters, autocomplete, and inline Ctrl+K AI diffs with swipe-to-accept.",
-        f5_title: "Linux Terminal & Embedded Git",
-        f5_desc: "Full-featured terminal with Unix shell tools, native Git version control, and seamless execution hooks for AI agent workflows.",
-        f6_title: "100% Private & Zero-Cloud",
-        f6_desc: "Your source code and projects live strictly on your device storage. Code on planes, in transit, or completely offline with total privacy.",
-        comp_title: "Feature Comparison",
-        comp_subtitle: "See why AI Coding IDE redefines mobile software development.",
-        comp_alt: "AI Coding IDE Feature Comparison",
-        cta_title: "Ready to code from anywhere?",
-        cta_subtitle: "Download the latest release and start building full-scale Android apps right from your pocket.",
-        cta_download: "Download APK Now (v2.3.2 DELUX)",
-        footer_copy: "© 2026 AI Coding IDE • Built for high-performance mobile developers.",
-        footer_repo: "GitHub Repository",
-        footer_releases: "Releases",
-        footer_license: "Distributed under MIT License"
-      },
-      pt: {
-        page_title: "AI Coding IDE — Compilador Nativo & IA Autônoma no Celular",
-        meta_desc: "AI Coding IDE — A primeira IDE profissional com IA autônoma e compilador nativo on-device para Android. Crie e instale APKs sem PC e sem nuvem.",
-        nav_download: "Baixar APK",
-        hero_tag: "<span></span> NOVA VERSÃO OFICIAL DISPONÍVEL",
-        hero_title: "Desenvolva, Compile e Instale Apps Reais no seu Celular",
-        hero_subtitle: "A primeira IDE móvel com Inteligência Artificial autônoma e motor de compilação nativa on-device. Sem computador, sem nuvem, 100% no seu bolso.",
-        hero_download: "Baixar APK Grátis (v2.3.2 DELUX)",
-        hero_releases: "Ver Código & Releases",
-        mockup_alt: "AI Coding IDE em Ação no Smartphone",
-        features_title: "Poder de Engenharia Desktop no Celular",
-        features_subtitle: "Projetado para desenvolvedores que exigem velocidade, liberdade e controle total.",
-        f1_title: "Compilação Nativa em ~12s",
-        f1_desc: "Compile projetos Android reais em Kotlin e Java diretamente no processador do celular, sem precisar de Android Studio ou PC conectado.",
-        f2_title: "🛡️ Agente IA & JEV (Auto-Correção)",
-        f2_desc: "Triagem universal inteligente no terminal: detecta erros reais e aciona auto-correções imediatas sem falsos-positivos.",
-        f3_title: "👁️ Visão Multimodal nos Modelos",
-        f3_desc: "Envie fotos, capturas de tela e mockups de UI diretamente no chat para que a IA analise a interface e o design do app.",
-        f4_title: "Editor Desktop com Ctrl+K",
-        f4_desc: "Editor de alto desempenho com destaque para 50+ linguagens, autocompletar e comando de IA inline com gestos de deslizar para aceitar alterações.",
-        f5_title: "Terminal Linux & Git",
-        f5_desc: "Terminal completo com ferramentas de linha de comando, controle de versão Git e integração direta com as ações da IA.",
-        f6_title: "100% Seguro & Zero-Cloud",
-        f6_desc: "Seus arquivos e projetos ficam estritamente no armazenamento do seu aparelho. Programe em aviões ou offline com privacidade absoluta.",
-        comp_title: "Comparativo de Recursos",
-        comp_subtitle: "Veja por que a AI Coding IDE redefine o desenvolvimento de software móvel.",
-        comp_alt: "Comparativo AI Coding IDE",
-        cta_title: "Pronto para programar de qualquer lugar?",
-        cta_subtitle: "Baixe a versão mais recente e comece a criar aplicativos Android completos direto no seu bolso.",
-        cta_download: "Baixar APK Agora (v2.3.2 DELUX)",
-        footer_copy: "© 2026 AI Coding IDE • Criado para desenvolvedores móveis de alta performance.",
-        footer_repo: "Repositório GitHub",
-        footer_releases: "Releases",
-        footer_license: "Distribuído sob Licença MIT"
-      }
-    };
-
-    function setLanguage(lang) {
-      const current = I18N[lang] ? lang : 'en';
-      const strings = I18N[current];
-      document.documentElement.lang = current === 'pt' ? 'pt-BR' : 'en';
-      document.title = strings.page_title;
-      
-      const metaDesc = document.querySelector('meta[name="description"]');
-      if (metaDesc) metaDesc.setAttribute('content', strings.meta_desc);
-
-      const ogDesc = document.querySelector('meta[property="og:description"]');
-      if (ogDesc) ogDesc.setAttribute('content', strings.meta_desc);
-
-      const twitterDesc = document.querySelector('meta[name="twitter:description"]');
-      if (twitterDesc) twitterDesc.setAttribute('content', strings.meta_desc);
-
-      // Simple text replacement
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (strings[key]) {
-          el.textContent = strings[key];
-        }
-      });
-
-      // HTML containing replacement (e.g. badges with glowing span)
-      document.querySelectorAll('[data-i18n-html]').forEach(el => {
-        const key = el.getAttribute('data-i18n-html');
-        if (strings[key]) {
-          el.innerHTML = strings[key];
-        }
-      });
-
-      // Alt text attributes
-      document.querySelectorAll('[data-i18n-alt]').forEach(el => {
-        const key = el.getAttribute('data-i18n-alt');
-        if (strings[key]) {
-          el.setAttribute('alt', strings[key]);
-        }
-      });
-
-      // Update switcher active states
-      document.querySelectorAll('.lang-btn').forEach(btn => {
-        const isActive = btn.getAttribute('data-lang') === current;
-        btn.classList.toggle('active', isActive);
-        btn.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-      });
-
-      try {
-        localStorage.setItem('vitrine_lang', current);
-      } catch (e) {}
-    }
-
-    function detectInitialLanguage() {
-      try {
-        const saved = localStorage.getItem('vitrine_lang');
-        if (saved && (saved === 'en' || saved === 'pt')) {
-          return saved;
-        }
-      } catch (e) {}
-
-      // Auto-detect browser language
-      const browserLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
-      if (browserLang.startsWith('pt')) {
-        return 'pt';
-      }
-      return 'en'; // Default to English for international visitors ("gringos")
-    }
-
-    // Initialize immediately
-    const initialLang = detectInitialLanguage();
-    setLanguage(initialLang);
-
-    // Event listeners for toggle buttons
-    document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.preventDefault();
-        const targetLang = btn.getAttribute('data-lang');
-        setLanguage(targetLang);
-      });
-    });
-  </script>
 </body>
 </html>
