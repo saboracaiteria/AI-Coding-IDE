@@ -68,12 +68,13 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 * **1-Click APK Installation:** Built-in APK installer launches the Android package installation flow instantly from the file explorer.
 * **Universal Compatibility:** Fully tested and optimized for Android 8.0 up to Android 14 / 15 and HyperOS.
 
-### 🤖 2. Autonomous Multi-Turn AI Agent
+### 🤖 2. Autonomous AI Agent with JEv System 1
 * **Full Agentic Workflow:** The AI doesn't just predict code—it reads files, plans complex tasks, writes surgical diffs, runs terminal diagnostic commands, and verifies results in real-time.
+* **JEv System 1 Reflex Engine (10–30 ms):** Ultra-fast deterministic on-device scanner and intent router (< 0.1 ms routing) that parses AST, monoliths, symbols, and binary structures before invoking the LLM, dramatically cutting latency and token usage.
+* **Surgical Code & Binary Search:** Replaces sluggish shell searches (`grep`/`find`) with the native `jev_scan` engine for instant code extraction.
 * **Consolidated Reasoning:** Clean, modern reasoning summaries keep the chat uncluttered and focused on results.
-* **Fast Intent Engine (System 1 / Jev-Pattern):** Sub-millisecond deterministic intent routing (< 0.1 ms) directly on-device, bypassing slow cloud roundtrips for instant actions.
 * **Integrated Live Preview & Web Engine:** Instant browser evaluation, DOM diagnostics, and live CSS/HTML testing directly in the mobile workspace.
-* **Model Agnostic:** Connect directly to **DeepSeek (V3 & Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter**, or run local offline models with **Ollama**.
+* **Model Agnostic:** Connect directly to **DeepSeek (V3 & Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter**, or run local offline GGUF models.
 
 ### 💻 3. Professional Mobile Code Editor
 * **Desktop-Grade Capabilities:** Full syntax highlighting for 50+ languages, smart code completion, bracket matching, and error linting.
@@ -84,9 +85,18 @@ Equipped with an **Autonomous AI Agent**, an ultra-fast **On-Device Native Compi
 * Built-in terminal supporting Git, shell utilities, and script execution.
 * Coordinated with the AI agent to automate builds, tests, and environment setup.
 
-### 🔒 5. Zero-Cloud Privacy
-* Your source code and project data stay strictly on your device storage.
-* Work in airplanes, remote locations, or offline environments with total security.
+### 🔍 5. Assisted Reverse Engineering & Inspection (REA)
+* **Silent Binary Inspection:** Powered by the internal **REA** and `ApkSilentInspector` engine to analyze APK headers, DEX class counts, native ABIs (`.so`), and compiled AXML without slow, blind decompression.
+* **APKTool & Smali Workflow:** Decompile, patch, adapt, and rebuild resources and smali routines seamlessly.
+* **Shizuku & Wireless ADB Bridge:** Native elevated system diagnostics (UID 2000) and live Logcat inspection without traditional root.
+
+### 👥 6. Built-in Technical Community & Global Chat
+* **Live Developer Network:** Connect, discuss errors, and share coding workflows directly within the IDE without switching apps.
+* **Instant Inline Translation & Roles:** Real-time multi-language message translation, user status, and verified developer badges.
+
+### 🔒 7. Zero-Cloud Local Workspace Privacy
+* **100% On-Device Code & Builds:** Your source code, repositories, generated binaries, and signing keys stay strictly inside your smartphone storage.
+* **Transparent Connectivity:** Network access is exclusively utilized for chosen cloud AI model queries and Community Chat synchronization.
 
 ---
 
@@ -131,12 +141,13 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 * **Instalação em 1 Toque:** Instalador nativo integrado que permite testar o APK gerado no próprio aparelho em segundos.
 * **Compatibilidade Ampla:** Testado e aprovado do Android 8.0 até o Android 14 / 15 e HyperOS.
 
-### 🤖 2. Agente de IA Autônomo
+### 🤖 2. Agente de IA com JEv Sistema 1
 * **Fluxo Agêntico Completo:** A IA não apenas responde texto—ela inspeciona pastas, lê arquivos, aplica correções cirúrgicas de código, executa comandos no terminal e testa a aplicação.
+* **Motor JEv Sistema 1 (10–30 ms):** Varredura nativa e roteamento determinístico ultra-rápido (< 0,1 ms) que filtra AST, monolitos, símbolos e estruturas binárias antes de chamar a LLM, reduzindo drasticamente tokens e latência.
+* **Busca Cirúrgica de Código:** Substitui comandos lentos de terminal (`grep`/`find`) pelo scanner nativo de alta performance `jev_scan`.
 * **Chat Limpo e Moderno:** Raciocínio condensado em cards elegantes e histórico de ferramentas compacto e organizado.
-* **Motor de Roteamento Rápido (Sistema 1 / Jev-Pattern):** Decisões locais e instantâneas (< 0,1 ms) no próprio aparelho, eliminando latência de nuvem para comandos frequentes.
 * **Navegador Live Preview Integrado:** Avaliação instantânea de JavaScript, inspeção de DOM e testes de CSS/HTML em tempo real na workspace.
-* **Agnóstico de Modelos:** Conecte-se facilmente a **DeepSeek (V3 e Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter** ou rode modelos locais via **Ollama**.
+* **Agnóstico de Modelos:** Conecte-se facilmente a **DeepSeek (V3 e Reasoner)**, **Claude 3.5 / 3.7**, **GPT-4o**, **Google Gemini**, **NVIDIA NIM**, **OpenRouter** ou rode modelos locais via GGUF/Ollama.
 
 ### 💻 3. Editor de Código Profissional
 * **Recursos Desktop:** Destaque de sintaxe para mais de 50 linguagens, autocompletar inteligente, detecção de erros e formatação.
@@ -147,9 +158,18 @@ Unindo um **Agente de IA Autônomo**, um motor de **Compilação Nativa On-Devic
 * Ambiente de terminal completo com suporte a Git, scripts shell e diagnósticos em tempo real.
 * Totalmente sincronizado com o fluxo da IA para tarefas automáticas.
 
-### 🔒 5. Privacidade Total (Zero-Cloud)
-* Seus arquivos e projetos ficam guardados unicamente na memória interna do seu smartphone.
-* Trabalhe com total sigilo e segurança mesmo sem conexão com a internet.
+### 🔍 5. Engenharia Reversa Assistida & Inspeção (REA)
+* **Inspeção Silenciosa de Binários:** Equipado com os motores **REA** e `ApkSilentInspector` para extrair e auditar cabeçalhos de APKs, contagem de classes DEX, ABIs nativas (`.so`) e AXML compilado sem a lentidão de descompactação cega.
+* **Fluxo Híbrido APKTool + Smali:** Desmonte, modifique rotinas e recompile recursos e bytecode com total agilidade.
+* **Ponte Shizuku & Wireless ADB:** Diagnósticos avançados via Logcat e privilégios elevados de sistema (UID 2000) dispensando root tradicional.
+
+### 👥 6. Comunidade Integrada & Chat Global
+* **Rede de Desenvolvedores em Tempo Real:** Discuta erros de compilação, tire dúvidas de código e compartilhe soluções diretamente no app sem trocar de janela.
+* **Tradução Instantânea & Cargos:** Tradução inline de mensagens entre idiomas, presença de usuários online e distintivos de desenvolvedores verificados.
+
+### 🔒 7. Privacidade Local do Código (Zero-Cloud Workspace)
+* **Projetos e Compilações 100% no Aparelho:** Seu código-fonte, repositórios, chaves de assinatura e APKs finais residem unicamente no armazenamento interno do celular.
+* **Conectividade Transparente:** O acesso à rede é utilizado estritamente para requisições de IA configuradas pelo usuário e para a sincronização do Chat Global comunitário.
 
 ---
 
