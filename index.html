@@ -9,16 +9,16 @@
   <link rel="canonical" href="https://saboracaiteria.github.io/AI-Coding-IDE/">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="AI Coding IDE v2.5.6 DELUX — Compilador Nativo & IA Autônoma no Celular">
-  <meta property="og:description" content="Substitua o Android Studio de PC no seu bolso: compile em ~12s, agente autônomo com IA Grátis nildoxzbr (reset em 5s), engenharia reversa silenciosa e 3D Studio.">
+  <meta property="og:title" content="AI Coding IDE v2.5.8 DELUX — Compilador Nativo & IA Autônoma no Celular">
+  <meta property="og:description" content="Substitua o Android Studio de PC no seu bolso: compile em ~12s, agente autônomo com IA Grátis, suíte de jogos Roblox, LÖVE2D e Godot Mobile, engenharia reversa silenciosa e 3D Studio.">
   <meta property="og:url" content="https://saboracaiteria.github.io/AI-Coding-IDE/">
   <meta property="og:site_name" content="AI Coding IDE">
   <meta property="og:image" content="https://saboracaiteria.github.io/AI-Coding-IDE/comparison.jpg">
 
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="AI Coding IDE v2.5.6 DELUX — Compilador Nativo & IA no Celular">
-  <meta name="twitter:description" content="A primeira IDE móvel com Inteligência Artificial autônoma, modelos nildoxzbr 1 e 2 ilimitados, motor JEV Sistema 1 e compilação nativa on-device.">
+  <meta name="twitter:title" content="AI Coding IDE v2.5.8 DELUX — Compilador Nativo & IA no Celular">
+  <meta name="twitter:description" content="A primeira IDE móvel com Inteligência Artificial autônoma, motor de jogos Roblox/LÖVE2D/Godot, motor JEV Sistema 1 e compilação nativa on-device.">
   <meta name="twitter:image" content="https://saboracaiteria.github.io/AI-Coding-IDE/comparison.jpg">
 
   <!-- Schema.org JSON-LD para Google Search Console & Rich Snippets -->
@@ -29,7 +29,7 @@
     "name": "AI Coding IDE",
     "operatingSystem": "Android 8.0+",
     "applicationCategory": "DeveloperApplication",
-    "softwareVersion": "v2.5.6 DELUX",
+    "softwareVersion": "v2.5.8 DELUX",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.9",
@@ -40,9 +40,9 @@
       "price": "0",
       "priceCurrency": "BRL"
     },
-    "description": "Desenvolva, compile em 12 segundos e instale aplicativos Android reais diretamente no celular. Sem computador, sem nuvem obrigatória e com modelos de IA nildoxzbr integrados e gratuitos.",
+    "description": "Desenvolva, compile em 12 segundos e instale aplicativos Android reais diretamente no celular. Sem computador, com motores de jogos Roblox e LÖVE2D, e IA autônoma integrada.",
     "url": "https://saboracaiteria.github.io/AI-Coding-IDE/",
-    "downloadUrl": "https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.5.6-delux/AI-Coding-IDE-v2.5.6-delux-arm64.apk"
+    "downloadUrl": "https://github.com/saboracaiteria/AI-Coding-IDE/releases/download/v2.5.8-delux/AI-Coding-IDE-v2.5.8-delux-arm64.apk"
   }
   </script>
 
@@ -584,6 +584,232 @@
       font-weight: 600;
     }
 
+    /* ===== GAME ENGINES EXCLUSIVE SECTION ===== */
+    .engines-section {
+      position: relative;
+      z-index: 2;
+      max-width: 1200px;
+      margin: 0 auto 80px;
+      padding: 0 20px;
+    }
+    .engines-banner {
+      background: linear-gradient(135deg, rgba(124, 77, 255, 0.18) 0%, rgba(0, 176, 255, 0.12) 50%, rgba(0, 230, 118, 0.10) 100%);
+      border: 1px solid rgba(124, 77, 255, 0.35);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      position: relative;
+    }
+    .engines-banner::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #7c4dff, #00b0ff, #00e676);
+      z-index: 1;
+    }
+    .engines-inner {
+      padding: 54px 48px 48px;
+      position: relative;
+      z-index: 2;
+    }
+    .engines-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 14px;
+      border-radius: var(--radius-full);
+      background: rgba(124, 77, 255, 0.18);
+      border: 1px solid rgba(124, 77, 255, 0.4);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #c9a7ff;
+      margin-bottom: 22px;
+    }
+    .engines-eyebrow svg {
+      width: 14px; height: 14px;
+      fill: #c9a7ff;
+    }
+    .engines-headline {
+      font-size: 2.6rem;
+      font-weight: 800;
+      letter-spacing: -1px;
+      line-height: 1.12;
+      margin-bottom: 16px;
+      background: linear-gradient(135deg, #ffffff 0%, #c9a7ff 45%, #00b0ff 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .engines-sub {
+      font-size: 1.06rem;
+      color: var(--text-sub);
+      max-width: 720px;
+      margin-bottom: 48px;
+      line-height: 1.65;
+    }
+    .engines-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+    .engine-card {
+      background: rgba(9, 10, 15, 0.6);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: var(--radius-md);
+      padding: 30px 28px;
+      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+    }
+    .engine-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 1px;
+      background: transparent;
+      transition: background 0.3s ease;
+    }
+    .engine-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(255,255,255,0.2);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+    .engine-card.roblox:hover { border-color: rgba(0, 176, 255, 0.45); }
+    .engine-card.roblox:hover::after { background: linear-gradient(90deg, #00b0ff, #7c4dff); }
+    .engine-card.godot:hover { border-color: rgba(0, 230, 118, 0.45); }
+    .engine-card.godot:hover::after { background: linear-gradient(90deg, #00e676, #00b0ff); }
+    .engine-card-head {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .engine-logo {
+      width: 54px;
+      height: 54px;
+      border-radius: var(--radius-md);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.9rem;
+      flex-shrink: 0;
+    }
+    .engine-logo.roblox-logo {
+      background: linear-gradient(135deg, rgba(0,176,255,0.25), rgba(124,77,255,0.25));
+      border: 1px solid rgba(0,176,255,0.3);
+    }
+    .engine-logo.godot-logo {
+      background: linear-gradient(135deg, rgba(0,230,118,0.25), rgba(0,176,255,0.25));
+      border: 1px solid rgba(0,230,118,0.3);
+    }
+    .engine-title-group .engine-super {
+      font-size: 0.68rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-bottom: 3px;
+    }
+    .engine-title-group h3 {
+      font-size: 1.3rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.2;
+    }
+    .engine-desc {
+      color: var(--text-muted);
+      font-size: 0.93rem;
+      line-height: 1.65;
+      margin-bottom: 22px;
+    }
+    .engine-features {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .ef-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 0.88rem;
+      color: var(--text-sub);
+    }
+    .ef-icon {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .ef-icon.blue { background: rgba(0,176,255,0.18); }
+    .ef-icon.green { background: rgba(0,230,118,0.18); }
+    .ef-icon.purple { background: rgba(124,77,255,0.18); }
+    .engine-lua-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 18px;
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
+      background: rgba(0,176,255,0.1);
+      border: 1px solid rgba(0,176,255,0.25);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #66d9ff;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .engine-gdot-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 18px;
+      padding: 7px 12px;
+      border-radius: var(--radius-sm);
+      background: rgba(0,230,118,0.1);
+      border: 1px solid rgba(0,230,118,0.25);
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: #80ffbb;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .engines-luau-strip {
+      margin-top: 28px;
+      background: rgba(0,0,0,0.45);
+      border: 1px solid rgba(0,176,255,0.2);
+      border-radius: var(--radius-md);
+      padding: 20px 24px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.82rem;
+      line-height: 1.7;
+      color: #a8d8ff;
+      overflow-x: auto;
+      position: relative;
+    }
+    .engines-luau-strip::before {
+      content: 'Luau (--!strict)';
+      position: absolute;
+      top: 8px; right: 14px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: rgba(0,176,255,0.55);
+      letter-spacing: 0.5px;
+    }
+    .luau-kw { color: #7c4dff; font-weight: 700; }
+    .luau-fn { color: #00b0ff; }
+    .luau-str { color: #00e676; }
+    .luau-cmt { color: rgba(255,255,255,0.3); font-style: italic; }
+    .luau-num { color: #ffb300; }
+    @media (max-width: 900px) {
+      .engines-grid { grid-template-columns: 1fr; }
+      .engines-inner { padding: 36px 22px 32px; }
+      .engines-headline { font-size: 1.9rem; }
+    }
+
     /* FAQ Section */
     .faq-section {
       position: relative;
@@ -1004,6 +1230,74 @@
     </div>
   </section>
 
+  <!-- GAME ENGINES EXCLUSIVE SECTION: Roblox + Godot Mobile -->
+  <section class="engines-section" id="game-engines" aria-labelledby="engines-heading">
+    <div class="engines-banner">
+      <div class="engines-inner">
+        <div class="engines-eyebrow">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span data-i18n="eng_eyebrow">Novo • Motores de Jogos Exclusivos</span>
+        </div>
+        <h2 id="engines-heading" class="engines-headline" data-i18n="eng_headline">Crie Jogos Reais no Celular: Roblox &amp; Godot Mobile</h2>
+        <p class="engines-sub" data-i18n="eng_sub">A AI Coding IDE v2.5.8 DELUX integra dois motores de jogos profissionais nativos — o motor Roblox Humanoid com scripts Luau totalmente tipados e o Godot Mobile Engine — tudo rodando no seu bolso, sem PC, sem emulador.</p>
+
+        <div class="engines-grid">
+          <!-- ROBLOX ENGINE CARD -->
+          <div class="engine-card roblox">
+            <div class="engine-card-head">
+              <div class="engine-logo roblox-logo">🟦</div>
+              <div class="engine-title-group">
+                <div class="engine-super" data-i18n="eng_roblox_super">Motor Nativo • Three.js + DataView</div>
+                <h3 data-i18n="eng_roblox_title">Roblox Humanoid Engine</h3>
+              </div>
+            </div>
+            <p class="engine-desc" data-i18n="eng_roblox_desc">Motor completo de avatares Roblox com rigging anatômico R6 e R15, malhas binárias .mesh v2.00 parseadas via DataView, cinemática inversa procedural e exportação GLB/GLTF direta no smartphone.</p>
+            <div class="engine-features">
+              <div class="ef-item"><div class="ef-icon blue">⚙️</div><span data-i18n="eng_r1">Skeleton R6 &amp; R15 com 15 ossos articulados e UV Flip automático</span></div>
+              <div class="ef-item"><div class="ef-icon blue">🎮</div><span data-i18n="eng_r2">Locomoção procedural via RunService.RenderStepped sem animações pré-gravadas</span></div>
+              <div class="ef-item"><div class="ef-icon purple">🗡️</div><span data-i18n="eng_r3">Hitbox de combate validado no servidor + DataStore com pcall e retry automático</span></div>
+              <div class="ef-item"><div class="ef-icon blue">🏃</div><span data-i18n="eng_r4">Parkour com raycast de vault e detecção de obstáculos em tempo real</span></div>
+            </div>
+            <div class="engine-lua-badge">--!strict &nbsp;·&nbsp; Luau v2 &nbsp;·&nbsp; type-safe</div>
+          </div>
+
+          <!-- GODOT MOBILE ENGINE CARD -->
+          <div class="engine-card godot">
+            <div class="engine-card-head">
+              <div class="engine-logo godot-logo">🎯</div>
+              <div class="engine-title-group">
+                <div class="engine-super" data-i18n="eng_godot_super">Engine Móvel • GDScript + GDExtension</div>
+                <h3 data-i18n="eng_godot_title">Godot Mobile Engine</h3>
+              </div>
+            </div>
+            <p class="engine-desc" data-i18n="eng_godot_desc">Crie, compile e execute projetos Godot 4.x diretamente no Android — com suporte a GDScript, exportação de cenas 2D/3D, físicas integradas e depuração visual no próprio dispositivo, sem espelhar para PC.</p>
+            <div class="engine-features">
+              <div class="ef-item"><div class="ef-icon green">🚀</div><span data-i18n="eng_g1">Projetos Godot 4.x executados nativamente no ARM64 sem emulação</span></div>
+              <div class="ef-item"><div class="ef-icon green">🌍</div><span data-i18n="eng_g2">Cenas 2D e 3D com físicas, colisores e iluminação global em tempo real</span></div>
+              <div class="ef-item"><div class="ef-icon green">🤖</div><span data-i18n="eng_g3">Agente de IA escreve GDScript e corrige erros de cena autonomamente</span></div>
+              <div class="ef-item"><div class="ef-icon purple">📦</div><span data-i18n="eng_g4">Exportação direta para APK jogável — instala no celular com 1 toque</span></div>
+            </div>
+            <div class="engine-gdot-badge">GDScript 4.x &nbsp;·&nbsp; ARM64 Native &nbsp;·&nbsp; No PC</div>
+          </div>
+        </div>
+
+        <!-- LUAU CODE STRIP -->
+        <div class="engines-luau-strip">
+<span class="luau-cmt">-- Exemplo real: Parkour Vault gerado pela IA no celular</span>
+<span class="luau-kw">--!strict</span>
+<span class="luau-kw">local</span> RunService = game:GetService(<span class="luau-str">"RunService"</span>)
+<span class="luau-kw">local function</span> <span class="luau-fn">detectVault</span>(hrp: BasePart): <span class="luau-kw">boolean</span>
+  <span class="luau-kw">local</span> ray = workspace:Raycast(hrp.Position, hrp.CFrame.LookVector * <span class="luau-num">2.8</span>)
+  <span class="luau-kw">return</span> ray ~= <span class="luau-kw">nil</span> <span class="luau-kw">and</span> ray.Instance.Size.Y &lt; <span class="luau-num">3.2</span>
+<span class="luau-kw">end</span>
+RunService.RenderStepped:Connect(<span class="luau-kw">function</span>() <span class="luau-cmt">-- gerado autonomamente pela IDE ✅</span>
+  <span class="luau-kw">if</span> <span class="luau-fn">detectVault</span>(char.HumanoidRootPart) <span class="luau-kw">then</span> hum:ChangeState(Enum.HumanoidStateType.Jumping) <span class="luau-kw">end</span>
+<span class="luau-kw">end</span>)
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- FAQ Section for Google Search Console & Rich Snippets -->
   <section class="faq-section">
     <div class="section-title">
@@ -1137,9 +1431,26 @@
         faq_a3: "São modelos nativos inclusos na IDE sem mensalidade ou chaves de API. Eles contam com capacidade avançada de código e visão multimodal para imagens de interface. Se houver qualquer instabilidade ou limite momentâneo da rede, basta alternar o Modo Avião por 5 segundos para restabelecer a conexão limpa imediatamente.",
         faq_q4: "O que é o motor JEV (Sistema 1)?",
         faq_a4: "Inspirado no conceito de decisão rápida de Daniel Kahneman, o JEV é um modelo reflexivo local que opera na CPU do aparelho em menos de 1 milissegundo. Ele analisa logs do terminal, previne loops de erro e comanda a auto-recuperação da IDE sem gastar tokens nem depender de internet.",
+        eng_eyebrow: "Novo • Motores de Jogos Exclusivos",
+        eng_headline: "Crie Jogos Reais no Celular: Roblox & Godot Mobile",
+        eng_sub: "A AI Coding IDE v2.5.8 DELUX integra dois motores de jogos profissionais nativos — o motor Roblox Humanoid com scripts Luau totalmente tipados e o Godot Mobile Engine — tudo rodando no seu bolso, sem PC, sem emulador.",
+        eng_roblox_super: "Motor Nativo • Three.js + DataView",
+        eng_roblox_title: "Roblox Humanoid Engine",
+        eng_roblox_desc: "Motor completo de avatares Roblox com rigging anatômico R6 e R15, malhas binárias .mesh v2.00 parseadas via DataView, cinemática inversa procedural e exportação GLB/GLTF direta no smartphone.",
+        eng_r1: "Skeleton R6 & R15 com 15 ossos articulados e UV Flip automático",
+        eng_r2: "Locomoção procedural via RunService.RenderStepped sem animações pré-gravadas",
+        eng_r3: "Hitbox de combate validado no servidor + DataStore com pcall e retry automático",
+        eng_r4: "Parkour com raycast de vault e detecção de obstáculos em tempo real",
+        eng_godot_super: "Engine Móvel • GDScript + GDExtension",
+        eng_godot_title: "Godot Mobile Engine",
+        eng_godot_desc: "Crie, compile e execute projetos Godot 4.x diretamente no Android — com suporte a GDScript, exportação de cenas 2D/3D, físicas integradas e depuração visual no próprio dispositivo, sem espelhar para PC.",
+        eng_g1: "Projetos Godot 4.x executados nativamente no ARM64 sem emulação",
+        eng_g2: "Cenas 2D e 3D com físicas, colisores e iluminação global em tempo real",
+        eng_g3: "Agente de IA escreve GDScript e corrige erros de cena autonomamente",
+        eng_g4: "Exportação direta para APK jogável — instala no celular com 1 toque",
         cta_title: "Liberte-se do computador hoje mesmo",
-        cta_subtitle: "Baixe a versão v2.5.6 DELUX oficial e experimente o futuro do desenvolvimento móvel de alto nível.",
-        cta_download: "Baixar APK Oficial (v2.5.6 DELUX)",
+        cta_subtitle: "Baixe a versão v2.5.8 DELUX oficial e experimente o futuro do desenvolvimento móvel de alto nível.",
+        cta_download: "Baixar APK Oficial (v2.5.8 DELUX)",
         footer_copy: "© 2026 AI Coding IDE • Criado para desenvolvedores móveis de alta performance.",
         footer_repo: "Repositório GitHub",
         footer_releases: "Releases",
@@ -1227,9 +1538,26 @@
         faq_a3: "They are native zero-cost models bundled in the IDE with no subscription or user API keys needed. They feature top-tier coding ability and multimodal UI vision. If a temporary network rate limit occurs, simply toggle Airplane Mode for 5 seconds to get a fresh instant session.",
         faq_q4: "What is the JEV (System 1) Engine?",
         faq_a4: "Inspired by Daniel Kahneman's fast-thinking paradigm, JEV is an ultra-fast local decision model running on CPU in under 1 millisecond. It analyzes tool outputs, prevents error loops, and self-heals terminal issues with zero token waste.",
+        eng_eyebrow: "New • Exclusive Game Engines",
+        eng_headline: "Build Real Games on Your Phone: Roblox & Godot Mobile",
+        eng_sub: "AI Coding IDE v2.5.8 DELUX integrates two professional native game engines — the Roblox Humanoid Engine with fully typed Luau scripts and the Godot Mobile Engine — all running in your pocket without a PC or emulator.",
+        eng_roblox_super: "Native Engine • Three.js + DataView",
+        eng_roblox_title: "Roblox Humanoid Engine",
+        eng_roblox_desc: "Full Roblox avatar engine with anatomical R6 & R15 rigging, binary .mesh v2.00 buffers parsed via DataView, procedural inverse kinematics, and direct GLB/GLTF export on your smartphone.",
+        eng_r1: "R6 & R15 skeleton with 15 articulated bones and automatic UV Flip",
+        eng_r2: "Procedural locomotion via RunService.RenderStepped — no pre-baked animations",
+        eng_r3: "Server-validated combat hitbox + DataStore with pcall and automatic retry",
+        eng_r4: "Parkour with raycast vault detection and real-time obstacle sensing",
+        eng_godot_super: "Mobile Engine • GDScript + GDExtension",
+        eng_godot_title: "Godot Mobile Engine",
+        eng_godot_desc: "Create, compile, and run Godot 4.x projects directly on Android — with GDScript support, 2D/3D scene export, built-in physics, and visual debugging on-device without mirroring to PC.",
+        eng_g1: "Godot 4.x projects run natively on ARM64 with zero emulation",
+        eng_g2: "2D & 3D scenes with physics, colliders, and global illumination in real time",
+        eng_g3: "AI agent writes GDScript and autonomously fixes scene errors",
+        eng_g4: "Direct export to playable APK — install on device with a single tap",
         cta_title: "Break Free from Your Computer Today",
-        cta_subtitle: "Download official v2.5.6 DELUX and experience the pinnacle of mobile-first software engineering.",
-        cta_download: "Download Official APK (v2.5.6 DELUX)",
+        cta_subtitle: "Download official v2.5.8 DELUX and experience the pinnacle of mobile-first software engineering.",
+        cta_download: "Download Official APK (v2.5.8 DELUX)",
         footer_copy: "© 2026 AI Coding IDE • Engineered for high-performance mobile developers.",
         footer_repo: "GitHub Repository",
         footer_releases: "Releases",
