@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://saboracaiteria.github.io/AI-Coding-IDE/sitemap.xml
