@@ -1,4 +1,6 @@
-# AI Coding IDE 🚀
+# nildoxzbr AI Coding IDE 🚀
+
+**nildoxzbr AI Coding IDE** (também conhecida como **CODEX-IDE**) é a primeira IDE Android com compilador APK nativo on-device e motor de IA gratuito **nildoxzbr AI**. Projeto de [nildoxzbr](https://www.youtube.com/@nildoxzbr).
 
 > 🌐 **VISITE A VITRINE OFICIAL / OFFICIAL SHOWCASE:**  
 > 👉 **[https://saboracaiteria.github.io/AI-Coding-IDE/](https://saboracaiteria.github.io/AI-Coding-IDE/)**  
